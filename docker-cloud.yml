@@ -1,0 +1,10 @@
+db:
+  image: postgres
+web:
+  image: leticiasg/lovelace
+  ports:
+    - "80:8000"
+  links:
+    - db
+  environment:
+    - ENABLE_SSL=true
