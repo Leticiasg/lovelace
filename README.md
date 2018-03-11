@@ -1,2 +1,0 @@
-# lovelace
-python studies
