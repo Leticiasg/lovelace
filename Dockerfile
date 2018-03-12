@@ -4,7 +4,7 @@
 FROM python:2-onbuild
 
 # COPY startup script into known file location in container
-COPY start.sh /start.sh
+COPY start.sh /lovelace/start.sh
 
 # EXPOSE port 8000 to allow communication to/from server
 EXPOSE 8000
